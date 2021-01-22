@@ -1,0 +1,348 @@
+
+
+
+! general settings
+URxvt*saveline:         15000
+URxvt*termName:         xterm-256color
+URxvt*urgentOnBell:     false
+URxvt*visualBell:       false
+URxvt*iso14755:         false
+URxvt*iso14755_52:      false
+URxvt*meta8:            false
+URxvt*metaSendsEscape:  true
+URxvt*iconFile:  		/usr/share/icons/Sardi-Mono/scalable/apps/terminal.svg
+
+
+! appearance
+URxvt*depth:             32
+!URxvt*transparent:      true
+!URxvt*shading:          40
+!URxvt*background:       rgba:2222/2222/2222/AAAA
+!URxvt*background:	[80]#101112
+!URxvt*background:       [80]#1d2021
+URxvt*background:	[80]#050505
+!URxvt*background:	[90]#181512
+!URxvt*background:       [80]#3F424A
+!URxvt*background:        [80]#282A36
+
+URxvt*foreground:        #ffffff
+URxvt*underlineColor:    #4682B4
+URxvt*highlightColor:    #4682B4
+URxvt*throughColor:      Blue
+URxvt*cursorColor:       #c5c8c6
+URxvt*scrollBar:         false
+URxvt*scrollTtyOutput:   false
+URxvt*scrollWithBuffer:  true
+URxvt*scrollTtyKeypress: true
+URxvt*internalBorder:    22
+URxvt*externalBorder:    0
+URxvt*colorIT:      	 #87af5f
+URxvt*colorBD:      	 #c5c8c6
+URxvt*colorUL:      	 #87afd7
+
+
+! colors default
+
+!URxvt*color0: #3f3f3f
+!URxvt*color1: #ac3c3c
+!URxvt*color2: #60b48a
+!URxvt*color3: #dfaf8f
+!URxvt*color4: #506070
+!URxvt*color5: #dc8cc3
+!URxvt*color6: #8cd0d3
+!URxvt*color7: #dcdccc
+!URxvt*color8: #79A9FF
+!URxvt*color9: #da6e6e
+!URxvt*color10: #c3bf9f
+!URxvt*color11: #f0dfaf!
+!URxvt*color12: #94bff3
+!URxvt*color13: #ec93d3
+!URxvt*color14: #93e0e3
+!URxvt*color15: #ffffff
+
+!gruvbox colors
+
+URxvt*color0:  #282828
+URxvt*color8:  #928374
+URvxt*color1:  #d93f38
+URxvt*color9:  #d93f38
+URxvt*color2:  #98971a
+URxvt*color10: #b8bb26
+URxvt*color3:  #d79921
+URxvt*color11: #fabd2f
+URxvt*color4:  #458588
+URxvt*color12: #83a598
+URxvt*color5:  #b16286
+URxvt*color13: #d3869b
+URxvt*color6:  #689d6a
+URxvt*color14: #8ec07c
+URxvt*color7:  #a89984
+Urxvt*color15: #ebdbb2
+
+
+
+
+!slate
+
+! black
+!URxvt*.color0:       #332d29
+!URxvt*.color8:       #817267
+
+! red
+!URxvt*.color1:       #8c644c
+!URxvt*.color9:       #9f7155
+
+! green
+!URxvt*.color2:       #746c48
+!URxvt*.color10:      #857b52
+
+! yellow
+!URxvt*.color3:       #908a66
+!URxvt*.color11:      #9c956e
+
+! blue
+!*URxvt.color4:       #646a6d
+!URxvt*.color12:      #71777a
+
+! magenta
+!URxvt*.color5:       #605655
+!URxvt*.color13:      #656565
+
+! cyan
+!URxvt*.color6:       #4b5c5e
+!URxvt*.color14:      #556d70
+
+! white
+!URxvt*.color7:       #504339
+!URxvt*.color15:      #9a875f
+
+
+
+#define nord0 [90]#2E3440
+#define nord1 #3B4252
+#define nord2 #434C5E
+#define nord3 #4C566A
+#define nord4 #D8DEE9
+#define nord5 #E5E9F0
+#define nord6 #ECEFF4
+#define nord7 #8FBCBB
+#define nord8 #88C0D0
+#define nord9 #81A1C1
+#define nord10 #5E81AC
+#define nord11 #BF616A
+#define nord12 #D08770
+#define nord13 #EBCB8B
+#define nord14 #A3BE8C
+#define nord15 #B48EAD
+
+!.foreground:   nord4
+!URxvt*.background:   nord0
+!*.cursorColor:  nord4
+!*fading: 35
+!*fadeColor: nord3
+
+!URxvt*.color0: nord1
+!URxvt*.color1: nord11
+!URxvt*.color2: nord14
+!URxvt*.color3: nord13
+!URxvt*.color4: nord9
+!URxvt*.color5: nord15
+!URxvt*.color6: nord8
+!URxvt*.color7: nord5
+!URxvt*.color8: nord3
+!URxvt*.color9: nord11
+!URxvt*.color10: nord14
+!URxvt*.color11: nord13
+!URxvt*.color12: nord9
+!URxvt*.color13: nord15
+!URxvt*.color14: nord7
+!URxvt*.color15: nord6
+
+
+
+
+
+
+
+
+! specialcolors
+!URxvt*foreground:  #d3d0c8
+!URxvt*background:   [90]#2d2d2d
+!URxvt*cursorColor:  #d3d0c8
+
+! black
+!URxvt*color0:       #2d2d2d
+!URxvt*color8:       #747369
+
+! red
+!URxvt*color1:       #f2777a
+!URxvt*color9:       #f2777a
+
+! green
+!URxvt*color2:       #99cc99
+!URxvt*color10:      #99cc99
+
+! yellow
+!URxvt*color3:       #ffcc66
+!URxvt*color11:      #ffcc66
+
+! blue
+!URxvt*color4:       #6699cc
+!URxvt*color12:      #6699cc
+
+! magenta
+!URxvt*color5:       #cc99cc
+!URxvt*color13:      #cc99cc
+
+! cyan
+!URxvt*color6:       #66cccc
+!URxvt*color14:      #66cccc
+
+! white
+!URxvt*color7:       #d3d0c8
+!URxvt*color15:      #f2f0ec
+
+
+
+
+!muted colours
+
+!URxvt*background:  [90]#151515
+
+! black
+!URxvt*color0:       #151515
+!URxvt*color8:       #505050
+
+! red
+!URxvt*color1:       #fb9fb1
+!URxvt*color9:       #fb9fb1
+
+! green
+!URxvt*color2:       #acc267
+!URxvt*color10:      #acc267
+
+! yellow
+!URxvt*color3:       #ddb26f
+!URxvt*color11:      #ddb26f
+
+! blue
+!URxvt*color4:       #6fc2ef
+!URxvt*color12:      #6fc2ef
+
+! magenta
+!URxvt*color5:       #e1a3ee
+!URxvt*color13:      #e1a3ee
+
+! cyan
+!URxvt*color6:       #12cfc0
+!URxvt*color14:      #12cfc0
+
+! white
+!URxvt*color7:       #d0d0d0
+!URxvt*color15:      #f5f5f5
+
+
+
+
+!mist 
+!URxvt*background:  [90]#1e1f28
+!URxvt*foreground:   #ebece6
+
+!URxvt*color0:   #000
+!URxvt*color1:   #fb4245
+!URxvt*color2:   #50fa7b
+!URxvt*color3:   #f0fa8b
+!URxvt*color4:   #49b9fe
+!URxvt*color5:   #fb4cb3
+!URxvt*color6:   #8be9fd
+!URxvt*color7:   #ededec
+!URxvt*color8:   #555555
+!URxvt*color9:   #fb4245
+!URxvt*color10:   #50fa7b
+!URxvt*color11:   #f0fa8b
+!URxvt*color12:   #49b9fe
+!URxvt*color13:   #fb4cb3
+!URxvt*color14:   #8be9fd
+!URxvt*color15:   #ededec
+
+
+! fonts
+URxvt*letterSpace: 	    		-2
+URxvt*font:                 	xft:Monospace:regular:size=12
+URxvt*imFont:               	xft:Monospace:regular:size=12
+URxvt*boldFont:             	xft:Monospace:bold:size=12
+URxvt*italicFont:           	xft:Monospace:italic:size=12
+URxvt*boldItalicFont:     		xft:Monospace:regular:size=12
+! run :.!fc-list | grep <font-name>
+
+! perl extensions
+URxvt*perl-ext-common:  default,clipboard,url-select,keyboard-select,resize-font
+!URxvt*perl-ext-common:  default,clipboard,url-select,keyboard-select,tabbed
+
+! macros for clipboard and selection
+URxvt*copyCommand:      xclip -i -selection clipboard
+URxvt*pasteCommand:     xclip -o -selection clipboard
+URxvt*keysym.M-c:       perl:clipboard:copy
+URxvt*keysym.m-v:       perl:clipboard:paste
+URxvt*keysym.M-C-v:     perl:clipboard:paste_escaped
+URxvt*keysym.M-Escape:  perl:keyboard-select:activate
+URxvt*keysym.M-s:       perl:keyboard-select:search
+URxvt*keysym.M-u:       perl:url-select:select_next
+URxvt*resize-font.smaller:	C-Down
+URxvt*resize-font.bigger:	C-Up
+URxvt*urlLauncher:      firefox
+URxvt*underlineURLs:    true
+URxvt*urlButton:        1
+URxvt*geometry: 		90x30
+
+! tabbed
+URxvt*tabbed.tabbar-fg: 4
+URxvt*tabbed.tabbar-bg: 16
+URxvt*tabbed.tab-fg:    15
+URxvt*tabbed.tab-bg:    4
+URxvt*buffered:         false
+URxvt*keysym.Control-Shift-C: perl:clipboard:copy
+URxvt*keysym.Control-Shift-V: perl:clipboard:paste
+
+
+
+
+
+UXTerm*cursorColor:        white
+UXTerm*VT100.geometry:     90x30
+UXTerm*font:               Monospace
+UXTerm*faceSize:		   12
+UXTerm*dynamicColors:      true
+UXTerm*utf8:               2
+UXTerm*eightBitInput:      true
+UXTerm*saveLines:          10000
+UXTerm*scrollKey:          true
+UXTerm*scrollTtyOutput:    false
+UXTerm*scrollBar:          false
+UXTerm*rightScrollBar:     false
+UXTerm*jumpScroll:         true
+UXTerm*multiScroll:        true
+UXTerm*toolBar:            false
+
+! fix colors
+!UXTerm*background: rgb:63/63/63
+!UXTerm*foreground: rgb:00/00/00
+!UXTerm*color0: rgb:00/00/00
+!UXTerm*color1: rgb:a8/00/00
+!UXTerm*color2: rgb:00/a8/00
+!UXTerm*color3: rgb:a8/54/00
+!UXTerm*color4: rgb:00/00/a8
+!UXTerm*color5: rgb:a8/00/a8
+!UXTerm*color6: rgb:00/a8/a8
+!UXTerm*color7: rgb:a8/a8/a8
+!UXTerm*color8: rgb:54/54/54
+!UXTerm*color9: rgb:fc/54/54
+!UXTerm*color10: rgb:54/fc/54
+!UXTerm*color11: rgb:fc/fc/54
+!UXTerm*color12: rgb:54/54/fc
+!UXTerm*color13: rgb:fc/54/fc
+!UXTerm*color14: rgb:54/fc/fc
+!UXTerm*color15: rgb:fc/fc/fc
+!UXTerm*boldMode: false
+!UXTerm*colorBDMode: true
+!UXTerm*colorBD: rgb:3f/3f/3f
